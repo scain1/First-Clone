@@ -20,10 +20,10 @@
     font-size: 22px;
 }
 
-/* .user-component__subtitle {
+.user-component__subtitle {
     margin-top: 5px;
     color: rgba(0, 0, 0, 0.5);
-} */
+}
 
 .user-component__avatar--xl {
     width: 80px;
