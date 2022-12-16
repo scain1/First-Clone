@@ -20,3 +20,9 @@ body {
     color: #2e363e;
 }
 
+.mains-screen {
+    padding-left: var(--horizontal-space);
+    padding-right: var(--horizontal-space);
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
