@@ -7,6 +7,7 @@
     padding-bottom: 15px;
     align-items: center;
 }
+/* 일관된 패딩값은 세밀한 조정이 불가해서 세분화 한 패당값 적용 */
 
 .screen-header__title {
     font-size: 32px;
