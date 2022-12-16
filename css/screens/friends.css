@@ -5,6 +5,8 @@
     padding: 15px 0px;
     font-size: 18px;
     margin-bottom: 10px;
+    margin-top: -10px;
+    /* screen-headers.css 에서 준 margin값 상쇄*/
 }
 
 #friends-display-link i {
