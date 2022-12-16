@@ -20,18 +20,13 @@
 }
 
 .nav__notification {
-    background-color: tomato;
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 600;
     position: absolute;
     left: 15px;
     bottom: 15px;
 }
+/* 일부 속성 badge로 옮김 */
+/* 두군데 사용되므로 통합해서 관리 */
+/* 하나는 nav-bar 다른 하나는 main-screen */
 
 .nav__noti {
     color: tomato;
