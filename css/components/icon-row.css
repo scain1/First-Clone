@@ -28,3 +28,30 @@
 .more-suggestions__title {
     margin-bottom: 30px;
 }
+
+.more-suggestions__icons {
+    display: flex;
+}
+
+.more-suggestions__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.more-suggestions__icon-img {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: var(--yellow);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.more-suggestions__icon-img i {
+    font-size: 32px;
+    color: white;
+}
