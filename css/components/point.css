@@ -1,0 +1,15 @@
+.point {
+    color: tomato;
+    font-size: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 35px;
+    bottom: 30px;
+}
+
+.cog__point {
+    left: 20px;
+    bottom: 25px;
+}
