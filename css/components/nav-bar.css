@@ -27,14 +27,3 @@
 /* 일부 속성 badge로 옮김 */
 /* 두군데 사용되므로 통합해서 관리 */
 /* 하나는 nav-bar 다른 하나는 main-screen */
-
-.nav__noti {
-    color: tomato;
-    font-size: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 30px;
-    bottom: 30px;
-}
