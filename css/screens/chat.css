@@ -38,6 +38,7 @@
 }
 
 .message-row {
+    margin-bottom: 25px;
     width: 100%;
     display: flex;
 }
@@ -72,4 +73,32 @@
 .message__author {
     opacity: 0.8;
     font-size: 13px;
+}
+
+.message-row--own {
+    justify-content: flex-end;
+}
+
+.message-row--own .message__bubble {
+    background-color: var(--yellow);
+    border-top-right-radius: 0px;
+    border-top-left-radius: 15px;
+    margin-right: 0px;
+    margin-left: 5px;
+}
+
+/* 부모 속성인  message__info가 flex일때
+자식 속성인 time, bubble가 order효과를 받는다
+(order : 좌에서 우로 순서) */
+/* .message-row--own .message__bubble {
+    order: 1;
+}
+
+.message-row--own .message__time {
+    order: 0;
+} */
+
+/* order 없이 순서 바꾸는법 */
+.message-row--own .message__info {
+    flex-direction: row-reverse;
 }
