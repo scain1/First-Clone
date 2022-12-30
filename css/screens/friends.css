@@ -38,6 +38,11 @@
     color: rgba(0, 0, 0, 0.5);
 }
 
+/* css를 사용해구현하는 기본적인 효과
+ visibility: hidden 값을 줘야 splash-screen이 사라진것처럼
+ 클릭 같은 이벤트들을 사용할수있다
+ 값을 주지 않으면 opacity 값에의해 보이지 않는것처럼 보이고
+ 클릭등의 이벤트를 사용할수없다*/
 @keyframes hideSplaScreen {
     from {
         opacity: 1;
