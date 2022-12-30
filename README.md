@@ -10,7 +10,7 @@ branch는 주로 사용하는 branch 에서 뻗어나가는 형식 (현재는 ma
 
 gh-pages에 업데이트후 인터넷으로 공유하려면
 
-주 branch 에서 작업후 push -> gh-pages 로 이동한후 상단 메뉴 update from menu 클릭
+주 branch 에서 작업후 push origin-> gh-pages 로 이동한후 상단 메뉴 update from menu 클릭
 
 이과정을 거쳐야만 정상적으로 인터넷 공유해서 인터넷상에서 접속가능 
 
