@@ -6,12 +6,11 @@
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 15px;
-    margin-bottom: 15px;
 }
 /* 일관된 패딩값은 세밀한 조정이 불가해서 세분화 한 패당값 적용 */
 
 .screen-header__title {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: 600;
 }
 
