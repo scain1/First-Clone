@@ -19,11 +19,54 @@
     color: #2e363e;
 }
 
+@keyframes notificationAnimation {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: translateY(-5px) rotateY(360deg)
+    }
+    100% {
+        transform: none;
+    }
+}
+
 .nav__notification {
     position: absolute;
     left: 15px;
     bottom: 15px;
+    animation: notificationAnimation 2s ease-in-out infinite;
 }
 /* 일부 속성 badge로 옮김 */
 /* 두군데 사용되므로 통합해서 관리 */
 /* 하나는 nav-bar 다른 하나는 main-screen */
+
+@keyframes appearBtnAnimation {
+    from {        
+        opacity: 0;
+    }
+    to {
+        transform: none;
+        opacity: 1;
+    }
+}
+/* translateY(50px)값을 keyframe 넣지 않고
+ nav__btn에 넣어줘야 화면 밖에 위치하다가 
+ 애니메이션동작에 의해 제자리로 되돌아 오는 효과를 줄수있다*/
+.nav__btn {
+    transform: translateY(50px);
+    opacity: 0;
+    animation: appearBtnAnimation 0.5s ease-in-out forwards;
+}
+
+.nav__btn:nth-child(2) {
+    animation-delay: 0.5s ;
+}
+
+.nav__btn:nth-child(3) {
+    animation-delay: 1s ;
+}
+
+.nav__btn:last-child {
+    animation-delay: 1.5s ;
+}
